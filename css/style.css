@@ -4,4 +4,10 @@
     font-size: 100%;
     line-height: 1em;
 }
+body {
+    width: 80%;
+    max-width: 760px;
+    margin: auto;
+    background-color: #fdfdfd;
+}
 
