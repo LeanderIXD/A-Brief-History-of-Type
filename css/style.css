@@ -1,13 +1,37 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-size: 100%;
     line-height: 1em;
 }
+
 body {
     width: 80%;
     max-width: 760px;
     margin: auto;
-    background-color: #fdfdfd;
+    background-color: #fcfcfc;
+    color: #333;
 }
 
+h1,
+h2 {
+    font-weight: normal;
+    color: #164A41;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.827em;
+    margin-top: 3em;
+    margin-bottom: 0.1em;
+}
+
+h2 {
+    font-size: 1.999em;
+    margin: 3em 0 1em 0;
+}
+
+p {
+    margin-bottom: 1.4em;
+    line-height: 1.5;
+}
