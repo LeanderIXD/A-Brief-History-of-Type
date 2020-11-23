@@ -1,0 +1,115 @@
+/*--- CSS Reset ---*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/*--- MAIN STYLING ---*/
+body {
+    width: 80%;
+    max-width: 760px;
+    margin: auto;
+    background-color: #fcfcfc;
+    color: #333;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+/*--- TYPOGRAPHY ---*/
+h1,
+h2 {
+    font-weight: normal;
+    color: #164A41;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 3.827em;
+    margin-top: 3em;
+    margin-bottom: 0.1em;
+}
+
+h2 {
+    font-size: 1.999em;
+    margin: 3em 0 1em 0;
+}
+
+p {
+    margin-bottom: 1.4em;
+    line-height: 1.5;
+}
+
+header h2 {
+    font-style: italic;
+    margin: 0 0 1.5em 0;
+}
+
+hr {
+    margin: 3em ;
+    height: 1px;
+    background: #4D774E;
+    border: 0 none;
+}
+
+/*---Links---*/
+a {
+    color: #4D774E;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4D774E;
+}
+
+a:hover {
+    color: #9DC88D;
+    border-bottom: 1px dotted;
+}
+
+/*---Navigation---*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #164A41;
+    padding: 1em 0;
+    font-size: 0.75em;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+}
+
+nav a {
+    color: #fdfdfd;
+}
+
+nav a:visited {
+    color: #fdfdfd
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #F1B24A;
+    transition: all 0.3s ease-in-out;
+}
+
+/*---Footer---*/
+footer {
+    text-align: center;
+    font-size: 0.707em;
+    padding: 4em 0 8em 0
+}
